@@ -26,6 +26,7 @@ fun PostScreen(viewModel: PostViewModel = viewModel()) {
                 Column(modifier = Modifier.padding(8.dp)) {
                     Text(text = post.title)
                     Text(text = post.body)
+                    Text(text = post.body)
                 }
             }
         }
