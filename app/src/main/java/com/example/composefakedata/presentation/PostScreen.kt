@@ -27,6 +27,7 @@ fun PostScreen(viewModel: PostViewModel = viewModel()) {
                     Text(text = post.title)
                     Text(text = post.body)
                     Text(text = post.body)
+                    Text(text = post.body)
                 }
             }
         }
