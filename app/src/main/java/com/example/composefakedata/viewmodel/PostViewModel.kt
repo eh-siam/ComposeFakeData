@@ -1,5 +1,6 @@
 package com.example.composefakedata.viewmodel
 
+import android.util.Log
 import androidx.compose.runtime.mutableStateListOf
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -22,6 +23,7 @@ class PostViewModel: ViewModel() {
                 postList.addAll(response)
             }catch (e: Exception){
                 e.printStackTrace()
+                Log.d("API_TEST", "API called")
             }
         }
     }
